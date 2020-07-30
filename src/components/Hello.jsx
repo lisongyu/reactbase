@@ -17,6 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <p>我是一个动态的数据: {this.state.text}</p>
+        {true && <p>2</p>}
         <button onClick={ this.updateText.bind(this) }>更换</button>
       </div>
     )
